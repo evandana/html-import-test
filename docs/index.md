@@ -51,7 +51,7 @@ TODO: research, implement test scenario, record results (steps to implement, pro
 
 ### Possibly no fix needed?
 
-- webcomponentsjs 1.2.7 release appears to already incorporate Web Components v1 with HTML Imports (https://github.com/webcomponents/webcomponentsjs/blob/aca216f6c7870f3ac9777bde7ebb9bed692b46c5/entrypoints/webcomponents-sd-ce-pf-index.js)
+- webcomponentsjs 1.2.7 release appears to already incorporate Web Components v1 with HTML Imports ([ref](https://github.com/webcomponents/webcomponentsjs/blob/aca216f6c7870f3ac9777bde7ebb9bed692b46c5/entrypoints/webcomponents-sd-ce-pf-index.js))
 - Polymer 1.4 requires webcomponentsjs ^0.7.20 (https://github.com/Polymer/polymer/blob/v1.4.0/bower.json) and Polymer 1.10.1 requires webcomponentsjs ^0.7.24 (https://github.com/Polymer/polymer/blob/v1.4.0/bower.json), but we're using webcomponentsjs 1.2.7. It seems that this already includes a solve for our issue?
 
 ### Custom-Elements v0 VS v1
