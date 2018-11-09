@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Has HTML Import</title>
+  <meta name="description" content="Has HTML Import">
+  <meta name="author" content="Evan Dana <evan.dana@ge.com>">
+
+  <link rel="stylesheet" href="./common/styles/styles.css">
+  
+  <script src="./common/js/index.js"></script>
+
+  <link rel="import" href="./common/template/index.html" onload="templatesLoaded(event)" onerror="templatesFailed(event)">
+  
+</head>
+
+<body>
+  
+  <h1>If HTML Imports is working, log will show below</h1>
+  
+  <section id="logBody">
+    <h2>Log</h2>
+    <ol id="logList"></ol>
+  </section>
+</body>
+</html>
+
+

@@ -1,0 +1,15 @@
+{
+  "name": "212-html-import-test",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github.build.ge.com:212590576/html-import-test.git",
+  "author": "Evan Dana <evan.dana@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.6"
+  }
+}

@@ -1,0 +1,1 @@
+console.log('html-import js file loaded');
