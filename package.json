@@ -6,7 +6,7 @@
   "author": "Evan Dana <evan.dana@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon server"
+    "start": "nodemon server.js"
   },
   "dependencies": {
     "express": "^4.16.4",

@@ -1,0 +1,19 @@
+{
+  "name": "212-html-import-test",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Evan Dana <evan.dana@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "1.9.2"
+  }
+}

@@ -17,16 +17,26 @@ Test HTML Import Deprecation
 1. Quit all instances of Chrome
 1. Start Chrome with flags
     ```bash
+    open -a "Google Chrome" --disable-blink-features=ShadowDOMV0,CustomElementsV0,HTMLImports
+
+    # alternative (shows chrome errors in console, e.g. logs when devtools fails to open)
     <PATH-TO-CHROME-EXECUTABLE>  --disable-blink-features=ShadowDOMV0,CustomElementsV0,HTMLImports
     ```
     - Ignore the "unsupported flag" warning ([ref](https://github.com/TakayoshiKochi/deprecate-style-in-html-imports/issues/7))
+    - Will disable ability to use DevTools
     - Also, try the flag: `--disable-blink-features=HTMLImports`
     - Example (Chrome): 
         ```bash
+        open -a "Google Chrome" --disable-blink-features=ShadowDOMV0,CustomElementsV0,HTMLImports
+
+        # alternative
         /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-blink-features=ShadowDOMV0,CustomElementsV0,HTMLImports
         ```
     - Example (Canary): 
         ```bash
+        open -a "Google Chrome Canary" --disable-blink-features=ShadowDOMV0,CustomElementsV0,HTMLImports
+
+        # alternative
         /Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary --disable-blink-features=ShadowDOMV0,CustomElementsV0,HTMLImports
         ```
 1. Run this app
